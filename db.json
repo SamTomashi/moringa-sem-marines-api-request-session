@@ -1,0 +1,28 @@
+{
+  "students": [
+    {
+      "id": "67c0",
+      "name": "Brandon Tomashi",
+      "age": "30",
+      "gender": "male"
+    },
+    {
+      "id": "f15d",
+      "name": "Patrick",
+      "age": 40,
+      "gender": "Male"
+    },
+    {
+      "id": "e3f7",
+      "name": "Lilian",
+      "age": "34",
+      "gender": "Female"
+    },
+    {
+      "id": "895f",
+      "name": "Molly",
+      "age": "",
+      "gender": "Female"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css" type="text/css"/>
+    <title>Document</title>
+</head>
+<body class="bg-primary">
+    <div class="container p-4">
+        <div>
+            <h1 class="lead">Update student's details</h1>
+        </div>
+        <form id="form-student" action="https://www.google.com">
+            <div class="mb-3">
+                <select id="students" name="student_id" class="form-select" aria-label="Default select example">
+                    <option selected>Select a student</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="nameInput" class="form-label">New Name</label>
+                <input type="text" name="new_name" class="form-control" id="nameInput" placeholder="Enter new student name">
+            </div>
+             <div class="mb-3">
+               <label for="ageInput" class="form-label">New Age</label>
+                <input type="number" name="new_age" min="18" class="form-control" id="ageInput" placeholder="Enter student age">
+            </div>
+            <div class="mb-3">
+                 <select name="new_gender" class="form-select" aria-label="Default select example">
+                    <option selected>Select new gender</option>
+                    <option value="female">Female</option>
+                    <option value="male">Male</option>
+                </select>
+            </div>
+            <div  class="mb-3">
+                <button class="btn btn-success btn-sm" type="submit">Update</button>
+                <button id="btn-delete" class="btn btn-danger btn-sm" type="button">Delete</button>
+            </div>
+            
+        <!-- <input type="text" name="studentname" placeholder="Enter your name"/><br>
+        <input type="number" name="age" min="15"/><br>
+        <label>Gender</label><br>
+        <select name="gender">
+            <option value="Female">Female</option>
+            <option value="male">Male</option>
+        </select><br>
+        <button type="submit">Add new student</button> -->
+    </form>
+    </div>
+
+    <script src="./js/index.js"></script>
+</body>
+</html>
